@@ -1,0 +1,20 @@
+{
+  "name": "duamel/entity",
+  "version": "0.0.1",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Duamel Sevans",
+      "email": "sevansd@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Duamel\\Entity\\": "src/Entity/"
+    }
+  },
+  "require": {
+    "php-di/php-di": "^5.4",
+    "catfan/medoo": "^1.4"
+  }
+}
